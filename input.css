@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+@media (max-width: 767px) {
+  #image {
+    display: none;
+  }
+}
